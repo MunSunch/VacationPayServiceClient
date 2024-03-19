@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="js/script.js" async></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Клиент</title>
+</head>
+<body>
+    <section class="main">
+        <div class="form_wrapper">
+            <form name="form">
+                <fieldset class="fields_form">
+                    <legend style="text-align: center;">Расчет отпускных</legend>
+                    <input name="average_salary" class="fields_form_item" type="number" placeholder="Средняя заработная плата" min="1"/>
+                    <input name="count_days" class="fields_form_item" type="number" placeholder="Количество дней" min="1" required/>
+                    <button id="send_btn" class="fields_form_item">Вычислить</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

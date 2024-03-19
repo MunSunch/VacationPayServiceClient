@@ -1,0 +1,32 @@
+* {
+    box-shadow: none;
+}
+
+.fields_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields_form_item {
+    margin-top: 5%;
+    height: 40px;
+    border-color: white;
+}
+
+.form_wrapper {
+    margin: 20% auto;
+}
+
+#send_form_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+@media screen and (width>550px){
+    .form_wrapper {
+        width: 40%;
+        margin: 10% auto;
+    }
+}
